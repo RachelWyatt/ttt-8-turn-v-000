@@ -36,6 +36,7 @@ def turn(board)
   index = input_to_index(input)
   if valid_move?(board, index) == true
     puts "Placehoder"
+    move (array, index, value = "X")
     display_board(board)
   else
     turn(board)
