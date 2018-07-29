@@ -38,5 +38,4 @@ def turn(board)
     move(array, index, value = "X")
   else
     puts "Please enter 1-9:"
-  end
 end
